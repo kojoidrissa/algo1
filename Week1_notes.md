@@ -14,8 +14,11 @@
 -  Take an array(Python list), split it in 1/2
 -  recursively sort each 1/2
 -  combine the sorted 1/2s
+    +  traverse them in parallel and put the results into a new, sorted array
 
 ##Merge Sort: Pseudocode
 -  Base cases: if `0 <= len(list) <=1`, don't recurse
 -  If `len(list) % 2 != 0`, how to split into "halves"?
-    +  see [Week1_code.py](Week1_code.py)for solution
+    +  see [Week1_code.py](Week1_code.py) for solution
+-  The "hard" part, merging the results of the sorted sub-arrays
+    +  
