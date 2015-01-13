@@ -36,8 +36,8 @@
 
 ##Guiding Principles for Analysis of Algorithms
 1.  Worst Case Analysis: The analysis is an UPPER bound on how long it will take the algorithm to run. It also has the benefit of being easier, mathematically.
-    - This is opposed to "Average Case Analysis", which uses assumptions about the frequency of various input types, or "Benchmarks", where you agree up front on certain typical inputs. These both require domain knowledge.
-3. We won't worry much about small constant factors or lower-order terms. Why?
+    1. This is opposed to "Average Case Analysis", which uses assumptions about the frequency of various input types, or "Benchmarks", where you agree up front on certain typical inputs. These both require domain knowledge.
+2. We won't worry much about small constant factors or lower-order terms. Why?
     4. Easier mathematically
     5. constants depend on the implementation language and method
-6. We'll lose very little predictive power by using the 2nd principle.
+3. We'll lose very little predictive power by using the 2nd principle.
