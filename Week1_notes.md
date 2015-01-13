@@ -18,4 +18,4 @@
 ##Merge Sort: Pseudocode
 -  Base cases: if `0 <= len(list) <=1`, don't recurse
 -  If `len(list) % 2 != 0`, how to split into "halves"?
-    +  see [Week1_code.py]for solution
+    +  see [Week1_code.py](Week1_code.py)for solution
