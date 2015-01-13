@@ -25,4 +25,14 @@
 
 ##Merge Sort: Analysis
 -  Use a Recursion Tree to analyze the claim that Merge sort will use `6n * log2n + 6n` steps to sort a list of n objects.
+    +  There are log2n levels in the binary tree. Counting the root, this gives us (log2n + 1) levels
+    +  The number of sub-problems at each level (j) is 2^j
+    +  The size of each sub-problem (the 'n' for each) is n/2^j
+    +  For each item in a sub-problem, 6 lines of code (or operations) need to be run
+    +  So, work per level = sub-problems/level * work/sub-problem
+        *  2^j * 6(n/2^j) ===> 6n, independent of level
+    +  Thus, the total work = work per level * levels
+        *  6n * (log2n + 1) ==> 6n * log2n + 6n
+
+##Guiding Principles for Analysis of Algorithms
 -  
