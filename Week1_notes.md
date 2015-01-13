@@ -40,4 +40,11 @@
 2. We won't worry much about small constant factors or lower-order terms. Why?
     4. Easier mathematically
     5. constants depend on the implementation language and method
-3. We'll lose very little predictive power by using the 2nd principle.
+    3. We'll lose very little predictive power by using the 2nd principle.
+3. Asymptotic analysis: focus on large input sizes (as n tends towards infinity)
+    4. justification: we focus on large n-values because those are the only problems where speed and performance matter. If you're only sorting 10 or 100 items, it doesn't really matter. However, as computers get faster, the data we want to analyze gets **larger**.
+    5. This also allows your problem-solving power to grow linearly with computer power.
+
+###Fast Algorithm definition
+An algorithm who's worst-case running time grows slowly with input size.  The 'sweet spot' provides mathematical tractability AND predictive power.
+
