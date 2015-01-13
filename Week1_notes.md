@@ -18,6 +18,4 @@
 ##Merge Sort: Pseudocode
 -  Base cases: if `0 <= len(list) <=1`, don't recurse
 -  If `len(list) % 2 != 0`, how to split into "halves"?
-    +  `a = [0, 1, 2, 3, 4, 5, 6, 7, 8]`
-    +  `a1 = a[:(len(a) //2)]`
-    +  `a2 = a[len(a1):]`
+    +  see [Week1_code.py]for solution
