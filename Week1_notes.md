@@ -6,6 +6,7 @@
     +  Makes the rational for this paradigm very clear
     +  Improves over Selection, Insertion, Bubble sorts
 -  Calibrate your level of prep. If you're comfortable with this, you're ready for the class. If not, do some background prep.
+    +  I need to research Trees and another data structure
 -  Highlights the guiding principles of algo analysis used in this class
     +  worst-case and asymptotic analysis
 -  The analysis (recursion tree) generalizes to the "Master Method"
@@ -21,4 +22,7 @@
 -  If `len(list) % 2 != 0`, how to split into "halves"?
     +  see [Week1_code.py](Week1_code.py) for solution
 -  The "hard" part, merging the results of the sorted sub-arrays
-    +  
+
+##Merge Sort: Analysis
+-  Use a Recursion Tree to analyze the claim that Merge sort will use `6n * log2n + 6n` steps to sort a list of n objects.
+-  

@@ -16,10 +16,14 @@ a2 = a[len(a1):]
 ##How do I check to make sure I don't go past the end of the sub-arrays?
 b =[] #output list; ultimate length = len(a)
 i, j = 0, 0 #counters for a1 and a2
-for k in len(a):
+for k in range(len(a)):
     if a1[i] < a2[j]:
         b[k] = a1[i]
         i += 1
     elif a2[j] < a1[i]:
         b[k] = a2[j]
         j += 1
+
+print(a)
+print(a1, a2)
+print(b)
