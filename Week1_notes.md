@@ -1,5 +1,12 @@
 #Week 1 notes
 
+##Ideas I need to review or get familiar with
+-  Data structures
+    +  Trees, especially Binary Trees
+    +  Heaps
+    +  Hash Tables
+-  Math: I've got [Mathematics for Computer Science][mathcs.pdf], which the instructor recommended.
+
 ##Merge Sort: Motivation and Example algorithm
 ###Why Analyze Merge Sort? 
 -  Good intro to the Divide/Conquer paradigm
