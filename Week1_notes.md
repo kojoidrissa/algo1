@@ -55,3 +55,28 @@
 ###Fast Algorithm definition
 An algorithm who's worst-case running time grows slowly with input size.  The 'sweet spot' provides mathematical tractability AND predictive power.
 
+##Asymptotic Analysis: The Gist
+###Why?
+- Vocab for the design and analysis of algorithmic performance
+    + Programs run in O(n) time; "Big O" notation
+- Suppress constant factors and lower-order terms **KEY 7 WORDS!!**
+    + leading constant factors: HIGHLY dependent on the implementation environment; too much granularity for us
+    + lower order terms: become less relevant as `n` approaches `Infinity`, which are the interesting problems
+- Example: Merge Sort
+    + Run time is 6n * log2n + 6n
+    + dropping LCF (the first 6) and lower order term (final 6n) ==> nlog<sub>2</sub>n
+    + ==> running time is O(nlog<sub>2</sub>n) (Big O of n logn)
+- Example: Single Loop
+    + Is an integer, `t` contained in an Array, `A`?
+    + Go through list, checking if `t == A[i]`
+        * If so, return `True`, else `False`
+    + Running time: O(n)
+- Example: Two Loops in Sequence
+    + Given Arrays `A` & `B` and integer `t`, is `t` in either array?
+        + Loop through A
+        + Loop through B
+        + Return False if not found
+    - Running time: O(n); would be 2n, but the LdCF is dropped
+* Example: Two Nested Loops
+    - Do arrays A & B have a number in common?
+
