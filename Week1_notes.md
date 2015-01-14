@@ -79,4 +79,12 @@ An algorithm who's worst-case running time grows slowly with input size.  The 's
     - Running time: O(n); would be 2n, but the LdCF is dropped
 * Example: Two Nested Loops
     - Do arrays A & B have a number in common?
+    - Running time: O(n<sup>2</sup>)
+* Example: Two Nested Loops II
+    - is there a duplicate in Array A?
+    - i = counter for A; j = i+1
+    - For i in A
+        - For j in A
+            - Compare A[i] to A[j]
+    + Running time: O(n<sup>2</sup>); Really n<sup>2</sup>/2, but the LdCF (.5) gets dropped
 

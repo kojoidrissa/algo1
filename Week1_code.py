@@ -19,10 +19,10 @@ i, j = 0, 0 #counters for a1 and a2
 for k in a:
     if a1[i] < a2[j]:
         print("k is ", k, "i is ", i)
-        b[k].append(a1[i])
+        b.append(a1[i])
         i += 1
     elif a2[j] < a1[i]:
-        b[k].append(a2[j])
+        b.append(a2[j])
         j += 1
 
 print(a)
