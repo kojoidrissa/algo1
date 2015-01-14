@@ -13,7 +13,7 @@
     +  Makes the rational for this paradigm very clear
     +  Improves over Selection, Insertion, Bubble sorts
 -  Calibrate your level of prep. If you're comfortable with this, you're ready for the class. If not, do some background prep.
-    +  I need to research Trees and another data structure (Heaps and probably Hash Tables)
+    +  [See Ideas I need to review or get familiar with](Ideas I need to review or get familiar with) above.
 -  Highlights the guiding principles of algo analysis used in this class
     +  worst-case and asymptotic analysis
 -  The analysis (recursion tree) generalizes to the "Master Method"
