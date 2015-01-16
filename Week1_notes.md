@@ -90,3 +90,6 @@ An algorithm who's worst-case running time grows slowly with input size.  The 's
 
 ##Big O Notation
 A mathematical proof was shown. Which basically highlighted my diminished math skills. :-(
+
+##Basic Examples
+I'm going to have to look at the typed/printed notes. This guy's handwriting is almost IMPOSSIBLE to read.
