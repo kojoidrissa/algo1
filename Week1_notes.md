@@ -88,3 +88,5 @@ An algorithm who's worst-case running time grows slowly with input size.  The 's
             - Compare A[i] to A[j]
     + Running time: O(n<sup>2</sup>); Really n<sup>2</sup>/2, but the LdCF (.5) gets dropped
 
+##Big O Notation
+A mathematical proof was shown. Which basically highlighted my diminished math skills. :-(
